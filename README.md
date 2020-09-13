@@ -13,5 +13,11 @@ The goal of this project is to help companies to set up a legitimate salary stru
 - test_features.csv: Similar to train_features.csv, but used for our ultimate prediction.
 
 # Data Exploration
-1. Fortunately, our data do not have any missing or duplicated values.
-
+1. Import useful libraries and load the dataset.
+2. Take a rough look at the three data. Each of them has one million records and mixed data types(numerical+categorical).
+3. Data Cleaning
+   - There are no missing or duplicated values in the data.
+   - Check and inspect potential outliers based on IQR rule and remove five records of data with salary zero.
+   
+# Explanatory Data Analysis
+In this section, I just plotted each variable against salary to observe if there is any relationship between variables.
