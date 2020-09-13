@@ -21,3 +21,4 @@ The goal of this project is to help companies to set up a legitimate salary stru
    
 # Explanatory Data Analysis
 In this section, I just plotted each variable against salary to observe if there is any relationship between variables.
+ <img src="images/companyid.png" width="350" >
