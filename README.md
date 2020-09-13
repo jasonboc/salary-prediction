@@ -1,5 +1,5 @@
 # Salary Prediction Project
-<img src="Salary.jpeg" width=500>
+<img src="images/Salary.jpeg" >
 
 # Introduction
 Salary structures are a necessary part of effective management. They help make sure that the pay levels are externally competitive and internally fair. Salary structures also allow companies to reward performance and development while controlling cost.
@@ -21,4 +21,5 @@ The goal of this project is to help companies to set up a legitimate salary stru
    
 # Explanatory Data Analysis
 In this section, I just plotted each variable against salary to observe if there is any relationship between variables.
- <img src="images/companyid.png" width="350" >
+ <img src="images/companyid.png" width=800 >     <img src="images/jobtype.png" width=800>
+
