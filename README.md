@@ -76,3 +76,5 @@ XGBoost yields the lowest mse so it is selected to be our best model to predict 
 As we can see above, the distance from metro area and level of experience play the most important roles on salary. Additionally, education, web and finance industry seem to affect salary in some degree. These factors should be considered for future salary level setting.
 - Combine the original test data with the predicted salaries and export to csv as a deliverable.
 - Save the model and export feature importance data to csv file.
+
+<img src="images/money.png">
