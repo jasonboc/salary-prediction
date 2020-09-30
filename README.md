@@ -20,10 +20,29 @@ The goal of this project is to help companies to set up a legitimate salary stru
    - Check and inspect potential outliers based on IQR rule and remove five records of data with salary zero.
    
 # Explanatory Data Analysis
-In this section, I just plotted each variable against salary to observe if there is any relationship between variables.
- <img src="images/companyid.png" width=800 >     <img src="images/jobtype.png" width=800>
- <img src="images/degree.png" width=800 >        <img src="images/major.png" width=800 >
-<img src="images/industry.png" width=800 >        <img src="images/yearsexp.png" width=800 >
+In this section, I just plotted each variable against salary to observe if there is any relationship between variables. 
+ Jobtype VS Salary
+ 
+ <img src="images/jobtype.png" width=800>
+ 
+ Degree VS Salary
+
+<img src="images/degree.png" width=800 >        
+ 
+ Major VS Salary
+ 
+ <img src="images/major.png" width=800 >
+
+Industry VS Salary
+
+<img src="images/industry.png" width=800 >        
+
+Years of Experience VS Salary
+
+<img src="images/yearsexp.png" width=800 >
+
+MilesfromMetro CS Salary
+
 <img src="images/miles.png" width=800 >
 
 From the above plots, we are able to observe that salary seems independent with different companies and dependent with other ingredients.
@@ -74,6 +93,8 @@ XGBoost yields the lowest mse so it is selected to be our best model to predict 
 <img src="images/featureimp.png" >
 
 As we can see above, the distance from metro area and level of experience play the most important roles on salary. Additionally, education, web and finance industry seem to affect salary in some degree. These factors should be considered for future salary level setting. 
+
+# Final Steps
 - Combine the original test data with the predicted salaries and export to csv as a deliverable.
 - Save the model and export feature importance data to csv file.
 
