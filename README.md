@@ -41,7 +41,7 @@ Years of Experience VS Salary
 
 <img src="images/yearsexp.png" width=800 >
 
-MilesfromMetro CS Salary
+MilesfromMetro VS Salary
 
 <img src="images/miles.png" width=800 >
 
