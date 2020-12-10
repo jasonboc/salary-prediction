@@ -1,5 +1,5 @@
 # Salary Prediction Project
-<img src="images/Salary.jpeg" >
+<img src="images/Salary.jpeg" > 
 
 # Introduction
 Salary structures are a necessary part of effective management. They help make sure that the pay levels are externally competitive and internally fair. Salary structures also allow companies to reward performance and development while controlling cost.
