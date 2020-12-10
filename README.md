@@ -102,7 +102,30 @@ As we can see above, the distance from metro area and level of experience play t
 Based on what we've got, XGBoost is the best model for salary prediction. Therefore, we use the model directly to predict salary with known vairbales.
 To ensure the user experience of the APP, I subset the whole data into 5% and trained my model on this subset data.
 
+here are two parts in the app: layout and callback.
 
+For the layout, it has input groups of model performance metrics (mse), a graph demonstrating fetaure importances, and a card generating salary prediction results.
+
+For the callbacks, different buttons serve for different functions.
+
+Users can choose different majors, jobtypes, industries, degrees from the dropdown and freely enter the company, years of experience and distance to metropolis.
+
+## Demo
+<img src="images/app1.png">
+
+From the head of APP, we can see the model performance including mean MSE and standard deviation of MSE and how we split the data.
+
+<img src="images/app2.png">
+
+We can also draw some conclusions from the feature importance plot byu the model generated to see which factors mostly affect salary.
+
+<img src="images/app3.png">
+
+Here we can just input necessary information including company, major, job type, industry etc. For the categorical variables, one can just scroll down the dropdown bar and select the right choice. 
+
+<img src="images/app4.png">
+
+After inputting all the information, the application can automatically calculate the approximate salary one will got based on input variables.
 
 
 <img src="images/money.png">
