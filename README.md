@@ -98,4 +98,11 @@ As we can see above, the distance from metro area and level of experience play t
 - Combine the original test data with the predicted salaries and export to csv as a deliverable.
 - Save the model and export feature importance data to csv file.
 
+# Web App for salary prediction
+Based on what we've got, XGBoost is the best model for salary prediction. Therefore, we use the model directly to predict salary with known vairbales.
+To ensure the user experience of the APP, I subset the whole data into 5% and trained my model on this subset data.
+
+
+
+
 <img src="images/money.png">
