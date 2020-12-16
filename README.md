@@ -73,7 +73,7 @@ In terms of regression, I believe the following three should be good candidates:
 ## Create models
  all models are created in this section. Hyperparameter tuning has been done through randomizedserchCV and gridSearchCV for Random Forest and XGBoost models.
 ## Test models
-Test each model by 5-fold corss-valiadation and return the metric mse for each model.
+Test each model by 5-fold cross-validation and return the metric mse for each model.
 
 | Model             | MSE           | 
 | ----------------- |:-------------:| 
