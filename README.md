@@ -117,7 +117,7 @@ From the head of APP, we can see the model performance including mean MSE and st
 
 <img src="images/app2.png">
 
-We can also draw some conclusions from the feature importance plot byu the model generated to see which factors mostly affect salary.
+We can also draw some conclusions from the feature importance plot the model generated to see which factors mostly affect salary.
 
 <img src="images/app3.png">
 
