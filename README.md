@@ -19,7 +19,7 @@ The goal of this project is to help companies to set up a legitimate salary stru
    - There are no missing or duplicated values in the data.
    - Check and inspect potential outliers based on IQR rule and remove five records of data with salary zero.
    
-# Explanatory Data Analysis
+# Exploratory Data Analysis
 In this section, I just plotted each variable against salary to observe if there is any relationship between variables. 
  Jobtype VS Salary
  
