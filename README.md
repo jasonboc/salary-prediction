@@ -52,7 +52,7 @@ From the above plots, we are able to observe that salary seems independent with 
 - Web, finance and oil seem to pay better.
 - Salary increase with increasing experience and decrease with increasing miles from metro area.
 
-I also conducted a correlation analysis between variables. To make categorical variables stand out, I encode the categories using average salary for each category to replace label and then calculated the correaltion between variables. As a result, a heatmap comes up and we can clealy visualize the relations.
+I also conducted a correlation analysis between variables. To make categorical variables stand out, I encode the categories using average salary for each category to replace label and then calculated the correlation between variables. As a result, a heatmap comes up and we can clearly visualize the relations.
 
 <img src="images/heatmap.png" width=800 >
 
